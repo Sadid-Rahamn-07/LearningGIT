@@ -2,6 +2,10 @@
 
 MERGING BRANCH TO THE MAIN BRANCH
 ** go to the main branch **
+
 git merge <branch name> [copies the content of the branch to main branch]
 git push -u origin main [updates the changes in the repository]
 
+**to add a specific file from a branch into the main branch
+** got main branch
+git checkout <branch name> -- <filename>
