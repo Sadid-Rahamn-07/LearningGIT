@@ -1,0 +1,7 @@
+## GIT COMMANDS
+
+MERGING BRANCH TO THE MAIN BRANCH
+** go to the main branch **
+git merge <branch name> [copies the content of the branch to main branch]
+git push -u origin main [updates the changes in the repository]
+
