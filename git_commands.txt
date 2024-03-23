@@ -13,7 +13,7 @@ git checkout <branch name> [goes to the new branch]
 -> git add <filename> [only add an individual file]
 
 git commit -m "message" [makes all the changes made to the branch]
-git push -u origin <branch name> [creates the branch in the repository]
+git push -u origin <branch name> [updates the branch in the repository]
 
 ------------------------------------------------------------------------
 
@@ -24,4 +24,4 @@ go the main branch
 git checkout main
 */
 git branch -d <branch name> [remove the branch locally]
-git push  origin --delete <branch name> [deletes the branch from repository]
+git push origin --delete <branch name> [deletes the branch from repository]
